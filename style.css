@@ -1,0 +1,149 @@
+/* reset.css */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+header {
+    background-color: #D9D9D9;
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+.lala {
+    background-color: #DCD3D3;
+}
+main {
+    background-color: #F5E7E2;
+}
+.kotuku {
+    background-color: #DCD3D3;
+}
+.menu {
+    background-color: #F5E7E2;
+}
+.inshe {
+    background-color: #DCD3D3;
+}
+footer {
+    background-color: #D9D9D9; 
+    padding: 10px;
+}
+h5 {
+    height: 30;
+}
+h4 {
+    font-weight: 200;
+}
+h3 {
+    font-weight: 200;
+}
+h2 {
+    font-size: 35px;
+    font-weight: 100;
+}
+h1 {
+    font-size: 40px;
+    font-weight: 100;
+    
+}
+.container_header{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #DCD3D3;
+    padding: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+    font-size: 22px;
+}
+.cont_main{
+    width: 400px;
+    font-weight: 100;
+    font-size: 23px;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.cont_footer{
+    display: flex;
+    justify-content: space-around;
+    font-size: 23px;
+}
+.contacts{
+    font-weight: 300;
+    text-align: center;
+    font-size: 30px;
+}
+.catalog{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #DCD3D3;
+    padding: 10px;
+    font-size: 23px;
+    font-weight: 200;
+  }
+  
+  .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+    transition: opacity 0.3s, visibility 0.3s;
+  }
+  
+  .backdrop.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+  .modal {
+    max-width: 430px;
+    width: 80%;
+    height: 430px;
+    max-height: 880px;
+    background-color: #DCD3D3;
+    border-radius: 32px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+  }
+  
+  .modal-btn-close {
+    border-radius: 100px;
+    border-bottom: rgb(0, 0, 0);
+    background-color: beige;
+    margin-top: 50px;
+    width: 150px;
+    height: 60px;
+    font-size: 25px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
